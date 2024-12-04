@@ -1,1 +1,2 @@
-TASK 2:- 
+TASK 2:- To Build a stopwatch web application, you can use HTML,CSS AND JAVASCRIPT. HTML is used to structure the elements of the application.By implementing Functions for starting , pausing and resetting the stopwatch, as well as tracking and display lap times, users can accurately measure and record time intervals.with these record time intervals.with these technologies and functionalities,you can create an interactive and user- friendly stopwatch web application.
+**Explanation:-**
