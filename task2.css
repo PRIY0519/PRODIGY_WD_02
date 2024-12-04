@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+.txt{
+    color:#fff;
+   font-size: 2em; 
+   font-family:'Goudy Old Style';
+   text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(0, 238, 255),
+      0 0 82px rgb(0, 255, 200),
+      0 0 92px rgb(0, 242, 255),
+      0 0 102px rgb(0, 255, 213),
+      0 0 151px rgb(0, 255, 255);
+margin-top: auto;
+margin-bottom: 50px;
+
+}
+.stopwatch {
+    text-align: center;
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 30px #fff,
+    0 0 42px #f09,
+    0 0 82px #f09,
+    0 0 92px #f09,
+    0 0 102px #f09,
+    0 0 151px #f09;
+    width: 400px;
+}
+
+.time-display {
+    font-size: 4em;
+    margin-bottom: 150px;
+    color:rgb(0, 0, 0);
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(122, 46, 255),
+      0 0 82px rgb(130, 78, 218),
+      0 0 92px rgb(159, 77, 248),
+      0 0 102px rgb(143, 95, 221),
+      0 0 151px rgb(128, 0, 255);
+}
+
+
+.controls {
+    margin-bottom: 20px;
+    
+}
+
+.control-btn {
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border: none;
+    background-color: #000000;
+   color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.control-btn:disabled {
+    background-color: #ff0000;
+    cursor: not-allowed;
+    
+}
+
+.control-btn:hover {
+    background-color: #8bff0f;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+    color: #fff;
+    font-size:large;
+    font-style:bold;
+    font-family:'Baskerville Old Face'}
+
+.laps ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+.laps li {
+    font-size:2em;
+    margin: 5px 0;
+    
+}
+.control-btn{
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff;
+   margin: 8px;
+}
+
